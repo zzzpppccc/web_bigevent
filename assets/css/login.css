@@ -1,13 +1,12 @@
-html,
-body {
+html,body {
   margin: 0;
   padding: 0;
   height: 100%;
   width: 100%;
-  background: url('/assets/images/login_bg.jpg') no-repeat center;
+  background: url("../images/login_bg.jpg") no-repeat center;
   background-size: cover;
 }
-
+/* 登录和注册模块 */
 .loginAndRegBox {
   width: 400px;
   height: 310px;
@@ -15,41 +14,47 @@ body {
   position: absolute;
   left: 50%;
   top: 50%;
-  transform: translate(-50%, -50%);
+  transform: translate(-50%,-50%) 
 }
-
+/* 头部图标 */
 .title-box {
   height: 60px;
-  background: url('/assets/images/login_title.png') no-repeat center;
+  background: url("../images/login_title.png") no-repeat center;
+  
 }
-
 .reg-box {
   display: none;
 }
-
 .layui-form {
-  padding: 0 30px;
+  padding: 0 35px;
 }
 
+/* 登录和注册按钮 */
 .links {
-  display: flex;
-  justify-content: flex-end;
+  float: right;
 }
-
 .links a {
   font-size: 12px;
 }
-
+/* 输入栏左边小图标 */
 .layui-form-item {
   position: relative;
 }
-
 .layui-icon {
   position: absolute;
-  left: 10px;
   top: 10px;
+  left: 10px;
+}
+.layui-input {
+  padding-left: 35px;
 }
 
-.layui-input {
-  padding-left: 32px;
-}
+
+
+
+
+
+
+
+
+
